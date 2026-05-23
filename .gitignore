@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environnement
+.env
+.venv/
+venv/
+env/
+
+# Cache & données runtime
+cache/
+*.db
+*.sqlite
+*.sqlite3
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temp files
+*.tmp
+*.bak
+*.log
+
+# Phoenix vault
+VaultPhoenix/
+.project
+.rag_index.json
+.hermes/
