@@ -1,0 +1,11 @@
+[project]
+name = "Swarm_V4_ZeroMQ"
+version = "1.0.0"
+description = "Swarm V4 — ZeroMQ Multi-Agent Hub"
+created = "2026-05-23T12:00:00+07:00"
+author = "Dannoob"
+phoenix_version = "2.1"
+
+[paths]
+vault = "VaultPhoenix"
+source = "."

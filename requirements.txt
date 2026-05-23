@@ -1,0 +1,4 @@
+# Swarm V4 — ZeroMQ Multi-Agent Hub
+pyzmq>=25.0.0
+msgpack>=1.0.0
+pyyaml>=6.0.1

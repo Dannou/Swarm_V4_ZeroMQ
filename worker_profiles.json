@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "code-general": {
+      "model": "kimi-for-coding",
+      "provider": "kimi-coding",
+      "capabilities": ["code", "python", "javascript", "debug"]
+    },
+    "code-python": {
+      "model": "qwen/qwen3-coder:free",
+      "provider": "openrouter",
+      "capabilities": ["code", "python", "debug"]
+    },
+    "code-frontend": {
+      "model": "openai/gpt-oss-120b:free",
+      "provider": "openrouter",
+      "capabilities": ["code", "frontend", "react", "css"]
+    },
+    "researcher": {
+      "model": "meta-llama/llama-3.3-70b-instruct:free",
+      "provider": "openrouter",
+      "capabilities": ["research", "analysis"]
+    }
+  }
+}
